@@ -1,22 +1,11 @@
 readme.txt
- Created on: 2019Äê8ÔÂ8ÈÕ
+ Created on: 2019å¹´8æœˆ8æ—¥
      Author: xiong
 
      
-     8.8     22£º00²âÊÔ¼ÌµçÆ÷Ä£¿é  22:56²âÊÔÍ¨¹ý
-      if(uart_flag&0x01){         //uart0ÖÐ¶Ï
-                    if( ce1 ){
-                        Charging( 1 );
-                        ce1 = 0;
-                    }else{
-                        Charging( 0 );
-                        ce1 = 1;
-                    }
-                    Emission();
-                    uart_flag = 0;
-                }
-    8.9     1:00 ËÙ¶È´«¸ÐÆ÷     3:13 ËÙ¶È¹«Ê½¼ÆËãÐèÒª½ÏÕý    
-    ×¢£º   ·¢»ÓÊ±¼äÐèÒª×¢Òâ
-    8.9     5£º30  ¼¤¹â´«¸ÐÆ÷   uart2²âÊÔÊ§°Ü£¬ ¸ÄÓÃuart4: ³É¹¦         7£º31 ²âÊÔÍ¨¹ý  ·µ»ØºÁÃ×ÊýÖµ
+     8.8     22ï¼š00æµ‹è¯•ç»§ç”µå™¨æ¨¡å—  22:56æµ‹è¯•é€šè¿‡
+    8.9     1:00 é€Ÿåº¦ä¼ æ„Ÿå™¨     3:13 é€Ÿåº¦å…¬å¼è®¡ç®—éœ€è¦è¾ƒæ­£    
+    æ³¨ï¼š   å‘æŒ¥æ—¶é—´éœ€è¦æ³¨æ„
+    8.9     5ï¼š30  æ¿€å…‰ä¼ æ„Ÿå™¨   uart2æµ‹è¯•å¤±è´¥ï¼Œ æ”¹ç”¨uart4: æˆåŠŸ         7ï¼š31 æµ‹è¯•é€šè¿‡  è¿”å›žæ¯«ç±³æ•°å€¼
     
  
